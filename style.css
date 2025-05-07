@@ -10,8 +10,8 @@
 
 
 :root {
-  --skyblue: #0fd9e0;
-  --green: #18e61f;
+  --skyblue: #e57f0b;
+  --green: #0fd9e0;
   --lightblack: #515C6F;
   --white: #ffffff;
   --grayscale: #cecaca;
@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(var(--skyblue) 0%, var(--green) 100%);
+  background: linear-gradient(var(--skyblue) 10%, var(--green) 90%);
 }
 
 .wrapper {
@@ -32,6 +32,7 @@ body {
   position: relative;
   border-radius: 15px;
   background: var(--white);
+  filter: drop-shadow(1px 1px 8px black);
   
 }
 
